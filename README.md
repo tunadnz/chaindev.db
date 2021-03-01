@@ -13,7 +13,7 @@ npm i chaindev.db
 
 # Örnek Kullanım
 ```javascript
-const db = require('chaindev.db')
+const db = require('chaindev.db');
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
