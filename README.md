@@ -22,6 +22,7 @@ db.get('Veri');
 db.has('Veri');
 db.fetch('Veri');
 db.fetchAll();
+db.all();
 db.includes('Veri');
 db.deleteIncludes('Veri', 'Değer');
 db.delete('Veri');
