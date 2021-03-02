@@ -1,4 +1,4 @@
-![Image](https://img.shields.io/npm/v/chaindev.db?color=f)
+![Image](https://img.shields.io/npm/v/chaindev.db?color=14E21B)
 ![Image](https://img.shields.io/npm/dt/chaindev.db.svg?color=E2142D&maxAge=3600) 
 ![Image](https://discordapp.com/api/guilds/814149645970046996/embed.png?style=shield) 
 #
