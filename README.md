@@ -13,8 +13,9 @@ npm i chaindev.db
 
 # Örnek Kullanım
 ```javascript
-const { Database } = require('chaindev.db');
-const db = new Database('./Database.json');
+const { JsonDatabase, YamlDatabase } = require('chaindev.db');
+const db = new JsonDatabase('./Database.json');
+const yamlDB = new YamlDatabase('./Database.json');
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
