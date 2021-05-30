@@ -33,8 +33,6 @@ db.endsWith('Veri');
 db.delete('Veri');
 db.deleteAll();
 db.destroy();
-
-// --> Veri Bilgilendirme <-- //
 ```
 # Bug/Hata Bildirmek İçin Gerekli İletişim Bilgilerim
 ### Vodkâ#6421
