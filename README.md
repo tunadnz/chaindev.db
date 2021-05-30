@@ -22,7 +22,7 @@ db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.substr('Veri', 'Değer'); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
-db.all(5); // --> Değer Sayı Olmak Zorundadır.
+db.all();
 db.has('Veri');
 db.get('Veri');
 db.includes('Veri');
