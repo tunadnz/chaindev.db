@@ -13,19 +13,25 @@ npm i chaindev.db
 
 # Örnek Kullanım
 ```javascript
-const db = require('chaindev.db');
+const { Database } = require('chaindev.db');
+const db = new Database("./Database.json");
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
-db.add('Veri', 5); // --> Değeri Sayı Olarak Girmelisiniz.
-db.get('Veri');
-db.has('Veri');
+db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
-db.all(5); // --> Değeri Sayı Olarak Girmelisiniz.
+db.all(5); // --> Değer Sayı Olmak Zorundadır.
+db.has('Veri');
+db.get('Veri');
 db.includes('Veri');
-db.deleteIncludes('Veri');
+db.type('Veri');
+db.length();
+db.startsWith('Veri');
+db.endsWith('Veri');
+db.substr('Veri', 'Değer'); // --> Değer Sayı Olmak Zorundadır.
 db.delete('Veri');
+db.deleteIncludes('Veri');
 db.deleteAll();
 db.destroy();
 ```
