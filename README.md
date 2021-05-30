@@ -19,6 +19,7 @@ const db = new Database("./Database.json");
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
 db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
+db.substr('Veri', 'Değer'); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
 db.all(5); // --> Değer Sayı Olmak Zorundadır.
@@ -29,11 +30,11 @@ db.type('Veri');
 db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
-db.substr('Veri', 'Değer'); // --> Değer Sayı Olmak Zorundadır.
 db.delete('Veri');
-db.deleteIncludes('Veri');
 db.deleteAll();
 db.destroy();
+
+// --> Veri Bilgilendirme <-- //
 ```
 # Bug/Hata Bildirmek İçin Gerekli İletişim Bilgilerim
 ### Vodkâ#6421
