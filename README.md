@@ -32,6 +32,7 @@ db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
 db.delete('Veri');
+db.deleteIncludes();
 db.deleteAll();
 db.destroy();
 ```
