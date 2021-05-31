@@ -15,7 +15,7 @@ npm i chaindev.db
 ```javascript
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('./Database.json');
-const yamlDB = new YamlDatabase('./Database.json');
+const yamlDB = new YamlDatabase('./Database.yaml');
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
