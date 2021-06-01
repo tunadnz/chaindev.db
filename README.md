@@ -19,11 +19,11 @@ const yamlDB = new YamlDatabase('./Database.yaml');
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
-db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
-db.substr('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
+db.add('Veri', 5);
+db.substr('Veri', 5);
 db.fetch('Veri');
 db.fetchAll();
-db.all(); || db.all(5); // --> Limit Sayı Olmak Zorundadır.
+db.all(); || db.all(5);
 db.has('Veri');
 db.get('Veri');
 db.includes('Veri');
