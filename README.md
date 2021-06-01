@@ -23,7 +23,7 @@ db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.substr('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
-db.all(5); // --> Veri Sayı Olmak Zorundadır.
+db.all(5); // --> Limit Sayı Olmak Zorundadır.
 db.has('Veri');
 db.get('Veri');
 db.includes('Veri');
@@ -31,7 +31,7 @@ db.type('Veri');
 db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
-db.hasArray('Veri', 'Değer');
+db.hasArray('Veri', 'Değer'); // --> Veri Array Olmak Zorundadır.
 db.valueArray();
 db.keyArray();
 db.delete('Veri');
