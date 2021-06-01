@@ -20,7 +20,7 @@ const yamlDB = new YamlDatabase('./Database.yaml');
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
 db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
-db.substr('Veri', 'Değer'); // --> Değer Sayı Olmak Zorundadır.
+db.substr('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
 db.all(5); // --> Veri Sayı Olmak Zorundadır.
@@ -31,8 +31,11 @@ db.type('Veri');
 db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
+db.hasArray('Veri', 'Değer');
+db.valueArray();
+db.keyArray();
 db.delete('Veri');
-db.deleteIncludes();
+db.deleteIncludes('Veri');
 db.deleteAll();
 db.destroy();
 ```
