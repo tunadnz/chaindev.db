@@ -27,6 +27,7 @@ db.all(); || db.all(5); // --> Limit Sayı Olmak Zorundadır.
 db.has('Veri');
 db.get('Veri');
 db.includes('Veri');
+db.math('Veri', '*', 5); // --> Değer Sayı Olmak Zorundadır.
 db.type('Veri');
 db.length();
 db.startsWith('Veri');
