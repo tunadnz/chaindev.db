@@ -31,7 +31,7 @@ db.type('Veri');
 db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
-db.hasArray('Veri', 'Değer'); // --> Veri Array Olmak Zorundadır.
+db.hasArray('Veri', 'Değer');
 db.valueArray();
 db.keyArray();
 db.delete('Veri');
