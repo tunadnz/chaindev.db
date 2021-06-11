@@ -2,6 +2,7 @@
 ![Image](https://img.shields.io/npm/dt/chaindev.db.svg?color=E2142D&maxAge=3600) 
 ![Image](https://discordapp.com/api/guilds/814149645970046996/embed.png?style=shield) 
 #
+#
 ![Image](https://cdn.glitch.com/36cacdd9-ec87-4187-829d-b9b82de904c3%2Fchaindev-db.png?v=1614557240999)
 #
 # Yüklemek İçin
