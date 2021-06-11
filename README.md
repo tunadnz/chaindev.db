@@ -1,8 +1,6 @@
-![Image](https://img.shields.io/npm/v/chaindev.db?color=f)
+![Image](https://img.shields.io/npm/v/chaindev.db?color=E2142D)
 ![Image](https://img.shields.io/npm/dt/chaindev.db.svg?color=E2142D&maxAge=3600) 
 ![Image](https://discordapp.com/api/guilds/814149645970046996/embed.png?style=shield) 
-#
-![Image](https://nodei.co/npm/chaindev.db.png?downloads=true&downloadRank=true&stars=true&stars=true)
 #
 ![Image](https://cdn.glitch.com/36cacdd9-ec87-4187-829d-b9b82de904c3%2Fchaindev-db.png?v=1614557240999)
 #
@@ -14,8 +12,8 @@ npm i chaindev.db
 # Örnek Kullanım
 ```javascript
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
-const db = new JsonDatabase('./Database.json');
-const yamlDB = new YamlDatabase('./Database.yaml');
+const db = new JsonDatabase('Database');
+const yamlDB = new YamlDatabase('Database');
 
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
