@@ -21,7 +21,7 @@ const dbYaml = new YamlDatabase('Database');
 ```
 
 # Methodlar
-```
+```javascript
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
 db.add('Veri', 5); // ---> Değer Sayı Olmak Zorundadır.
