@@ -52,7 +52,7 @@ db.destroy(); // --> Veritabanı Dosyasını Siler
 
 // ---> Boolean Methodları
 db.has('Veri'); // --> Veri Varmı/Yokmu Kontrol Eder
-db.hasArray('Veri'); // --> Veri Arraymı Değilmi Kontrol Eder
+db.hasArray('Veri'); // --> Veri Arraymı Değil mi Kontrol Eder
 
 // ---> Veri Bulma Methodları
 db.fetchAll(); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler
