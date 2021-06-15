@@ -1,6 +1,5 @@
 ![Image](https://img.shields.io/npm/v/chaindev.db?color=E2142D)
 ![Image](https://img.shields.io/npm/dt/chaindev.db.svg?color=E2142D&maxAge=3600) 
-![Image](https://discordapp.com/api/guilds/814149645970046996/embed.png?style=shield) 
 #
 ![Image](https://cdn.glitch.com/36cacdd9-ec87-4187-829d-b9b82de904c3%2Fchaindev-db.png?v=1614557240999)
 #
@@ -18,7 +17,7 @@ const yamlDB = new YamlDatabase('Database');
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
 db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
-db.substr('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
+db.substract('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
 db.all(); || db.all(5); // --> Limit Sayı Olmak Zorundadır.
@@ -31,8 +30,8 @@ db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
 db.hasArray('Veri', 'Değer');
-db.valueArray();
 db.keyArray();
+db.valueArray();
 db.delete('Veri');
 db.deleteIncludes('Veri');
 db.deleteAll();
