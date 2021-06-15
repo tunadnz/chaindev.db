@@ -10,6 +10,9 @@ npm i chaindev.db
 
 # Yenilikler
 ```
+[ Eklenilenler ]
+- version Methodu Eklendi.
+
 [ Hata / Bug Giderme ]
 - math Methodu Düzeltildi
 - hasArray Methodu Düzeltildi.
