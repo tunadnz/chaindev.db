@@ -29,7 +29,7 @@ db.type('Veri');
 db.length();
 db.startsWith('Veri');
 db.endsWith('Veri');
-db.hasArray('Veri', 'Değer');
+db.hasArray('Veri');
 db.keyArray();
 db.valueArray();
 db.delete('Veri');
