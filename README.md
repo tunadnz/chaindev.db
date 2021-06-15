@@ -23,7 +23,7 @@ npm i chaindev.db
 - Node Sürümü 12 Ve Üstü Olmalıdır.
 ```
 
-# Database Kullanımı
+# Database Kullanımıı
 ```javascript
 //----------------------------JSON----------------------------\\
 
