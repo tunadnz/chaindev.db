@@ -51,7 +51,7 @@ db.destroy(); // --> Veritabanı Dosyasını Siler
 
 
 // [ Boolean Methodları ]
-db.has('Veri'); // --> Verinin Olup Olmadığını Kontrol Eder
+db.has('Veri'); // --> Verinin Veritabanında Olup Olmadığını Kontrol Eder
 db.arrayHas('Veri'); // --> Verinin Array Olup Olmadığını Kontrol Eder
 
 // [ Veri Bulma Methodları ]
