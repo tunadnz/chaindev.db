@@ -25,7 +25,7 @@ const db = new JsonDatabase('Database');
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new YamlDatabase('Database');
 
---------------------------------------------------------------
+-----------------------------------------------------------------------
 ```
 
 # Methodlar
