@@ -17,7 +17,7 @@ npm i chaindev.db
 
 # Uyarı
 ```
-- Node Sürümü 12'den Büyük Olmalıdır.
+- Node Sürümü 12 Ve Üstü Olmalıdır.
 ```
 
 # Örnek Kullanım
