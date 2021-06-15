@@ -22,17 +22,17 @@ npm i chaindev.db
 
 # Database Kullanımı
 ```javascript
-//-----------------------------JSON-----------------------------\\
+//----------------------------JSON----------------------------\\
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('Database');
 
-//-----------------------------YAML-----------------------------\\
+//----------------------------YAML----------------------------\\
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new YamlDatabase('Database');
 
-//--------------------------------------------------------------\\
+//-----------------------------------------------------------\\
 ```
 
 # Methodlar
