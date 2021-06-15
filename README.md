@@ -20,45 +20,45 @@ npm i chaindev.db
 - Node Sürümü 12 Ve Üstü Olmalıdır.
 ```
 
-# Örnek Kullanım
+# Database Kullanımı
 ```javascript
------------------------------JSON-----------------------------
+//-----------------------------JSON-----------------------------\\
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('Database');
 
------------------------------YAML-----------------------------
+//-----------------------------YAML-----------------------------\\
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new YamlDatabase('Database');
 
---------------------------------------------------------------
+//--------------------------------------------------------------\\
 ```
 
 # Methodlar
 ```javascript
-db.set('Veri', 'Değer');
-db.push('Veri', 'Değer');
-db.add('Veri', 5); // ---> Değer Sayı Olmak Zorundadır.
-db.substract('Veri', 5); // ---> Değer Sayı Olmak Zorundadır.
-db.fetch('Veri');
-db.fetchAll();
-db.all(); || db.all(5); // ---> Limit Sayı Olmak Zorundadır.
-db.has('Veri');
-db.get('Veri');
-db.includes('Veri');
-db.math('Veri', '*', 5); // ---> Değer Sayı Olmak Zorundadır.
-db.type('Veri');
-db.length();
-db.startsWith('Veri');
-db.endsWith('Veri');
-db.hasArray('Veri');
-db.keyArray();
-db.valueArray();
-db.delete('Veri');
-db.deleteIncludes('Veri');
-db.deleteAll();
-db.destroy();
+db.set('Veri', 'Değer'); // -<| Veriyi Kaydeder |>-
+db.push('Veri', 'Değer'); // -<| Veriyi Array Olarak Kaydeder |>-
+db.add('Veri', 5); // -<| Veriyi Sayı Olarak Kaydeder |>-
+db.substract('Veri', 5); // -<| Kaydedilmiş Olan Veriden Girdiğiniz Sayıyı Çıkarır |>-
+db.fetch('Veri'); // -<| Veriyi Çeker |>-
+db.fetchAll(); // -<| Veritabanında Bulunan Bütün Verileri Array İçine Ekler |>-
+db.all() || db.all(5); // -<| Veritabanında Bulunan Bütün Verileri Array İçine Ekler |>-
+db.has('Veri'); // -<| Veri Varmı/Yokmu Kontrol Eder |>-
+db.get('Veri'); // -<| Veriyi Çeker |>-
+db.includes('Veri'); // -<| Girdiğiniz Verinin Adını İçeren Bütün Verileri Array İçine Ekler |>-
+db.math('Veri', '*', 5); // -<| Kaydedilmiş Olan Veride Matematik İşlemi Yapar |>-
+db.type('Veri'); // -<| Verinin Tipini Gösterir |>-
+db.length(); // -<| Veritabanında Bulunan Toplam Veri Sayısını Gösterir |>-
+db.startsWith('Veri'); // -<| Girdiğiniz Verinin Adı İle Başlayan Bütün Verileri Array İçine Ekler |>-
+db.endsWith('Veri'); // -<| Girdiğiniz Verinin Adı İle Biten Bütün Verileri Array İçine Ekler |>-
+db.hasArray('Veri'); // -<| Veri Arraymı/Arraysızmı Kontrol Eder |>-
+db.keyArray(); // -<| Veritabanında Bulunan Bütün Verileri Değersiz Array İçine Ekler |>-
+db.valueArray(); // -<| Veritabanında Bulunan Bütün Verilerin Değerini Array İçine Ekler |>-
+db.delete('Veri'); // -<| Kaydedilmiş Olan Veriyi Siler |>-
+db.deleteIncludes('Veri'); // -<| Girdiğiniz Verinin Adını İçeren Bütün Verileri Siler |>-
+db.deleteAll(); // -<| Veritabanında Bulunan Bütün Verileri Siler |>-
+db.destroy(); // -<| Veritabanı Dosyasını Siler |>-
 ```
 # İletişim Bilgilerim
 [Discord](https://discord.gg/rVnKDGcRKR) 
