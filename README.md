@@ -15,9 +15,13 @@ Node Sürümü 12'den Büyük Olmalıdır.
 
 # Örnek Kullanım
 ```javascript
+-----------------------------JSON-----------------------------
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('Database');
-const dbYaml = new YamlDatabase('Database');
+-----------------------------YAML-----------------------------
+const { JsonDatabase, YamlDatabase } = require('chaindev.db');
+const db = new YamlDatabase('Database');
+--------------------------------------------------------------
 ```
 
 # Methodlar
