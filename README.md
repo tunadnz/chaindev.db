@@ -10,7 +10,7 @@ npm i chaindev.db
 
 # Yenilikler
 ```
-  [ Hata / Bug Giderme ]
+[ Hata / Bug Giderme ]
 - math Methodu Düzeltildi
 - hasArray Methodu Düzeltildi.
 ```
