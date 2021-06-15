@@ -8,19 +8,26 @@
 npm i chaindev.db
 ```
 
+# Yenilikler
+```
+[Hata / Bug Giderme]
+- math Methodu Düzeltildi
+- hasArray Methodu Düzeltildi.
+```
+
 # Uyarı
 ```
-Node Sürümü 12'den Büyük Olmalıdır.
+- Node Sürümü 12'den Büyük Olmalıdır.
 ```
 
 # Örnek Kullanım
 ```javascript
------------------------------JSON Database-----------------------------
+-----------------------------JSON-----------------------------
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('Database');
 
------------------------------YAML Database-----------------------------
+-----------------------------YAML-----------------------------
 
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new YamlDatabase('Database');
