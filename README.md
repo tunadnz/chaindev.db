@@ -37,24 +37,24 @@ const db = new YamlDatabase('Database');
 
 # Methodlar
 ```javascript
-// ---> Kaydetme & Çekme Methodları
+// [ Kaydetme & Çekme Methodları ]
 db.set('Veri', 'Değer'); // --> Veriyi Kaydeder
 db.push('Veri', 'Değer'); // --> Veriyi Array Olarak Kaydeder
 db.fetch('Veri'); // --> Veriyi Çeker
 db.get('Veri'); // --> Veriyi Çeker
 
-// ---> Silme Methodları
+// [ Silme Methodları ]
 db.delete('Veri'); // --> Kaydedilmiş Olan Veriyi Siler
 db.deleteIncludes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Siler
 db.deleteAll(); // --> Veritabanında Bulunan Bütün Verileri Siler
 db.destroy(); // --> Veritabanı Dosyasını Siler
 
 
-// ---> Boolean Methodları
+// [ Boolean Methodları ]
 db.has('Veri'); // --> Veri Varmı/Yokmu Kontrol Eder
 db.hasArray('Veri'); // --> Veri Arraymı Değil mi Kontrol Eder
 
-// ---> Veri Bulma Methodları
+// [ Veri Bulma Methodları ]
 db.fetchAll(); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler
 db.all() || db.all(5); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler
 db.includes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Array İçine Ekler
@@ -63,12 +63,12 @@ db.endsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Biten Bütün Verileri
 db.keyArray(); // --> Veritabanında Bulunan Bütün Verileri Değersiz Array İçine Ekler
 db.valueArray(); // --> Veritabanında Bulunan Bütün Verilerin Değerini Array İçine Ekler
 
-// ---> Matematik Methodları
+// [ Matematik Methodları ]
 db.add('Veri', 5); // --> Veriyi Sayı Olarak Kaydeder
 db.substract('Veri', 5); // --> Kaydedilmiş Olan Veriden Girdiğiniz Sayıyı Çıkarır
 db.math('Veri', '*', 5); // --> Kaydedilmiş Olan Veride Matematik İşlemi Yapar
 
-// ---> Bilgi Methodları
+// [ Bilgi Methodları ]
 db.type('Veri'); // --> Verinin Tipini Gösterir
 db.length(); // --> Veritabanında Bulunan Toplam Veri Sayısını Gösterir
 ```
