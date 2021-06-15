@@ -8,23 +8,31 @@
 npm i chaindev.db
 ```
 
+# Uyarı
+```
+Node Sürümü 12'den Büyük Olmalıdır.
+```
+
 # Örnek Kullanım
 ```javascript
 const { JsonDatabase, YamlDatabase } = require('chaindev.db');
 const db = new JsonDatabase('Database');
-const yamlDB = new YamlDatabase('Database');
+const dbYaml = new YamlDatabase('Database');
+```
 
+# Methodlar
+```
 db.set('Veri', 'Değer');
 db.push('Veri', 'Değer');
-db.add('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
-db.substract('Veri', 5); // --> Değer Sayı Olmak Zorundadır.
+db.add('Veri', 5); // ---> Değer Sayı Olmak Zorundadır.
+db.substract('Veri', 5); // ---> Değer Sayı Olmak Zorundadır.
 db.fetch('Veri');
 db.fetchAll();
-db.all(); || db.all(5); // --> Limit Sayı Olmak Zorundadır.
+db.all(); || db.all(5); // ---> Limit Sayı Olmak Zorundadır.
 db.has('Veri');
 db.get('Veri');
 db.includes('Veri');
-db.math('Veri', '*', 5); // --> Değer Sayı Olmak Zorundadır.
+db.math('Veri', '*', 5); // ---> Değer Sayı Olmak Zorundadır.
 db.type('Veri');
 db.length();
 db.startsWith('Veri');
@@ -37,6 +45,5 @@ db.deleteIncludes('Veri');
 db.deleteAll();
 db.destroy();
 ```
-# Bug/Hata Bildirmek İçin Gerekli İletişim Bilgilerim
-### Vodkâ#6421
+# İletişim Bilgilerim
 [Discord](https://discord.gg/rVnKDGcRKR) 
