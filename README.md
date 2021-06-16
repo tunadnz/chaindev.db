@@ -18,6 +18,8 @@ npm i chaindev.db
 - has Methodu Düzeltildi.
 - hasArray Methodu Düzeltildi.
 - math Methodu Düzeltildi.
+- set Methodu Düzeltildi.
+- push Methodu Düzeltildi.
 ```
 
 # Uyarı
@@ -54,13 +56,12 @@ db.deleteIncludes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün V
 db.deleteAll(); // --> Veritabanında Bulunan Bütün Verileri Siler.
 db.destroy(); // --> Veritabanı Dosyasını Siler.
 
-
 // [ Boolean Methodları ]
 db.has('Veri'); // --> Verinin Veritabanında Olup Olmadığını Kontrol Eder.
 db.arrayHas('Veri'); // --> Verinin Array Olup Olmadığını Kontrol Eder.
 
 // [ Veri Bulma Methodları ]
-db.fetchAll(); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler.
+db.fetchAll(); // --> Veritabanında Bulunan Bütün Verileri Çeker.
 db.all() || db.all(5); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler.
 db.includes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Array İçine Ekler.
 db.startsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Başlayan Bütün Verileri Array İçine Ekler.
