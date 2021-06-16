@@ -17,9 +17,9 @@ npm i chaindev.db
 - fetch Methodu Düzeltildi.
 - has Methodu Düzeltildi.
 - hasArray Methodu Düzeltildi.
-- math Methodu Düzeltildi.
 - set Methodu Düzeltildi.
 - push Methodu Düzeltildi.
+- math Methodu Düzeltildi.
 ```
 
 # Uyarı
