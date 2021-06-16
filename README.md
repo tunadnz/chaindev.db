@@ -8,14 +8,16 @@
 npm i chaindev.db
 ```
 
-# Yenilikler
+# Değişim Kaydı
 ```
-[ Eklenilenler ]
+[ Eklenenler ]
 - version Methodu Eklendi.
 
-[ Hata / Bug Giderme ]
-- math Methodu Düzeltildi
+[ Giderilen Hatalar ]
+- fetch Methodu Düzeltildi.
+- has Methodu Düzeltildi.
 - hasArray Methodu Düzeltildi.
+- math Methodu Düzeltildi.
 ```
 
 # Uyarı
