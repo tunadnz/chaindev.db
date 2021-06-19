@@ -11,7 +11,6 @@ npm i chaindev.db
 # Değişim Kaydı
 ```
 [ Eklenenler ]
-- version Methodu Eklendi.
 - fileName Methodu Eklendi.
 
 [ Giderilen Hatalar ]
