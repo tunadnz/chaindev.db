@@ -1,5 +1,5 @@
-![Image](https://img.shields.io/npm/v/chaindev.db?color=E2142D)
-![Image](https://img.shields.io/npm/dt/chaindev.db.svg?color=E2142D&maxAge=3600) 
+![Image](https://img.shields.io/npm/v/chaindev.db?style=flat-square&color=0091EA)
+![Image](https://img.shields.io/npm/dt/chaindev.db.svg?style=flat-square&color=0091EA&maxAge=3600) 
 #
 ![Image](https://cdn.glitch.com/36cacdd9-ec87-4187-829d-b9b82de904c3%2Fchaindev-db.png?v=1614557240999)
 #
@@ -12,14 +12,10 @@ npm i chaindev.db
 ```
 [ Eklenenler ]
 - version Methodu Eklendi.
+- fileName Methodu Eklendi.
 
 [ Giderilen Hatalar ]
-- fetch Methodu Düzeltildi.
-- has Methodu Düzeltildi.
-- hasArray Methodu Düzeltildi.
-- set Methodu Düzeltildi.
-- push Methodu Düzeltildi.
-- math Methodu Düzeltildi.
+- size Methodu Düzeltildi.
 ```
 
 # Uyarı
@@ -66,18 +62,19 @@ db.all() || db.all(5); // --> Veritabanında Bulunan Bütün Verileri Array İç
 db.includes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Array İçine Ekler.
 db.startsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Başlayan Bütün Verileri Array İçine Ekler.
 db.endsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Biten Bütün Verileri Array İçine Ekler.
-db.keyArray(); // --> Veritabanında Bulunan Bütün Verileri Değersiz Array İçine Ekler.
-db.valueArray(); // --> Veritabanında Bulunan Bütün Verilerin Değerini Array İçine Ekler.
+db.keyArray(); // --> Veritabanında Bulunan Bütün Verileri Değerleri Olmadan Array İçine Ekler.
+db.valueArray(); // --> Veritabanında Bulunan Bütün Verilerin Değerlerini Array İçine Ekler.
 
 // [ Matematik Methodları ]
-db.add('Veri', 5); // --> Veriyi Sayı Olarak Kaydeder.
+db.add('Veri', 5); // --> Veriye Girdiğiniz Sayıyı Ekler.
 db.substract('Veri', 5); // --> Kaydedilmiş Olan Veriden Girdiğiniz Sayıyı Çıkarır.
 db.math('Veri', '*', 5); // --> Kaydedilmiş Olan Veride Matematik İşlemi Yapar.
 
 // [ Bilgi Methodları ]
 db.type('Veri'); // --> Verinin Tipini Gösterir.
-db.length(); // --> Veritabanında Bulunan Toplam Veri Sayısını Gösterir.
+db.size(); // --> Veritabanında Bulunan Toplam Veri Sayısını Gösterir.
 db.version(); // --> Modül Sürümünü Gösterir.
+db.fileName(); // --> Veritabanı Dosyasının Adını Gösterir.
 ```
 # İletişim Bilgilerim
 [Discord](https://discord.gg/rVnKDGcRKR) 
