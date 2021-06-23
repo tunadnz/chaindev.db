@@ -14,7 +14,7 @@ npm i chaindev.db
 - fileName Methodu Eklendi.
 
 [ Giderilen Hatalar ]
-- size Methodu Düzeltildi.
+- Typescript Methodları Düzeltildi.
 ```
 
 # Uyarı
