@@ -57,7 +57,7 @@ db.arrayHas('Veri'); // --> Verinin Array Olup Olmadığını Kontrol Eder.
 
 // [ Veri Bulma Methodları ]
 db.fetchAll(); // --> Veritabanında Bulunan Bütün Verileri Çeker.
-db.all() || db.all(5); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler.
+db.all() || db.all(5); // --> Veritabanında Bulunan Bütün Verileri Array İçine Ekler Ve Çeker.
 db.includes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Array İçine Ekler.
 db.startsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Başlayan Bütün Verileri Array İçine Ekler.
 db.endsWith('Veri'); // --> Girdiğiniz Verinin Adı İle Biten Bütün Verileri Array İçine Ekler.
