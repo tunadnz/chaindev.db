@@ -11,6 +11,7 @@ npm i chaindev.db
 # Değişim Kaydı
 ```
 [ Eklenenler ]
+- Discord.js Senkronizasyonu Eklendi.
 - fileName Methodu Eklendi.
 
 [ Giderilen Hatalar ]
