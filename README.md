@@ -12,7 +12,6 @@ npm i chaindev.db
 ```
 [ Eklenenler ]
 - Discord.js Senkronizasyonu Eklendi.
-- fileName Methodu Eklendi.
 
 [ Giderilen Hatalar ]
 - Typescript Methodları Düzeltildi.
