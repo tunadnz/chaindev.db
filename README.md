@@ -3,7 +3,7 @@
 #
 ![Image](https://cdn.glitch.com/36cacdd9-ec87-4187-829d-b9b82de904c3%2Fchaindev-db.png?v=1614557240999)
 #
-# Yüklemek İçin
+# 📥 Yüklemek İçin
 ```npm
 npm i chaindev.db
 ```
@@ -38,7 +38,7 @@ const db = new YamlDatabase('Database');
 //------------------------------------------------------------\\
 ```
 
-# 🔣 Methodlar
+# ⚙️ Methodlar
 ```javascript
 // [ Kaydetme & Çekme Methodları ]
 db.set('Veri', 'Değer'); // --> Veriyi Kaydeder.
