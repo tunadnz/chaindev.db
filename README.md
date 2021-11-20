@@ -8,21 +8,22 @@
 npm i chaindev.db
 ```
 
-# Değişim Kaydı
+# 🛠 Değişim Kaydı
 ```
 [ Eklenenler ]
-- Discord.js Senkronizasyonu Eklendi.
+- unset Methodu Eklendi.
+- backup Methodu Eklendi.
 
 [ Giderilen Hatalar ]
-- Typescript Methodları Düzeltildi.
+- Veri Kaydetme & Silme Methodları Düzeltildi.
 ```
 
-# Uyarı
+# ❗️ Uyarı
 ```
 - Node Sürümü 12 Ve Üstü Olmalıdır.
 ```
 
-# Database Kullanımı
+# 📃 Database Kullanımı
 ```javascript
 //----------------------------JSON----------------------------\\
 
@@ -37,7 +38,7 @@ const db = new YamlDatabase('Database');
 //------------------------------------------------------------\\
 ```
 
-# Methodlar
+# 🔣 Methodlar
 ```javascript
 // [ Kaydetme & Çekme Methodları ]
 db.set('Veri', 'Değer'); // --> Veriyi Kaydeder.
@@ -47,6 +48,7 @@ db.get('Veri'); // --> Veriyi Çeker.
 
 // [ Silme Methodları ]
 db.delete('Veri'); // --> Kaydedilmiş Olan Veriyi Siler.
+db.unset('Veri'); // --> Kaydedilmiş Olan Veriyi Siler.
 db.deleteIncludes('Veri'); // --> Girdiğiniz Verinin Adını İçeren Bütün Verileri Siler.
 db.deleteAll(); // --> Veritabanında Bulunan Bütün Verileri Siler.
 db.destroy(); // --> Veritabanı Dosyasını Siler.
@@ -74,6 +76,7 @@ db.type('Veri'); // --> Verinin Tipini Gösterir.
 db.size(); // --> Veritabanında Bulunan Toplam Veri Sayısını Gösterir.
 db.version(); // --> Modül Sürümünü Gösterir.
 db.fileName(); // --> Veritabanı Dosyasının Adını Gösterir.
+db.backup() || db.backup('JsonDatabase'); // --> Veritabanı Dosyasının Yedeğini Alır.
 ```
-# İletişim Bilgilerim
+# 💬 İletişim
 [Discord](https://discord.gg/rVnKDGcRKR) 
